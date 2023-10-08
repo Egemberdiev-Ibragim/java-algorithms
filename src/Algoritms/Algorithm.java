@@ -28,4 +28,13 @@ public class Algorithm {
         }
         return -1;
     }
+
+    public static int linenanSearch(int[] arr, int elementToSearch) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == elementToSearch) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
